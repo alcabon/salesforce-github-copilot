@@ -29,7 +29,8 @@ code --install-extension salesforce-github-copilot-0.1.0.vsix
 
 Or via the VS Code UI: open the Extensions side-bar (`Ctrl+Shift+P` → **Extensions: Install from VSIX…**) and browse to the downloaded file.
 
-**3. Reload VS Code** when prompted — the **Salesforce Github Copilot** icon <img width="77" height="56" alt="image" src="https://github.com/user-attachments/assets/f18e171a-7038-4532-9950-96dbdcd08311" />  will appear in the Activity Bar.
+**3. Reload VS Code** when prompted — the **Salesforce Github Copilot** icon <img width="43" height="41" alt="image" src="https://github.com/user-attachments/assets/7b806915-c486-4728-a1d2-d4a784b47e4e" />
+  will appear in the Activity Bar.
 
 ---
 
