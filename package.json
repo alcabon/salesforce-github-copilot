@@ -15,8 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alcabon/salesforce-copilot-inspector.git"  
+    "url": "https://github.com/alcabon/salesforce-copilot-inspector.git"
   },
+  "bugs": {
+    "url": "https://github.com/alcabon/salesforce-copilot-inspector/issues"
+  },
+  "homepage": "https://github.com/alcabon/salesforce-copilot-inspector#readme",
   "icon": "assets/logo.png",
   "engines": {
     "vscode": "^1.120.0"
