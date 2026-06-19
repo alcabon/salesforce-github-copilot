@@ -3,6 +3,11 @@
   "displayName": "Salesforce Github Copilot",
   "description": "Verify GitHub Copilot configurations, installed skills, hooks, instructions, and Salesforce MCP server setup",
   "version": "0.3.0",
+  "publisher": "alaincabon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alcabon/salesforce-github-copilot.git"  
+  },
   "icon": "assets/logo.png",
   "engines": {
     "vscode": "^1.120.0"
