@@ -70,7 +70,7 @@ The release workflow starts automatically on GitHub Actions.
 
 **3. Verify the release**
 
-Check [Actions](https://github.com/alcabon/salesforce-github-copilot/actions) for the workflow run, then confirm the `.vsix` asset appears on the [Releases page](https://github.com/alcabon/salesforce-github-copilot/releases).
+Check [Actions](https://github.com/alcabon/salesforce-copilot-inspector/actions) for the workflow run, then confirm the `.vsix` asset appears on the [Releases page](https://github.com/alcabon/salesforce-copilot-inspector/releases).
 
 ### Re-tagging a broken release
 
@@ -88,5 +88,5 @@ Then delete any duplicate `.vsix` assets from the release page using the edit (p
 ### Installing a local VSIX
 
 ```bash
-code --install-extension salesforce-github-copilot-0.1.0.vsix
+code --install-extension salesforce-copilot-inspector-0.1.0.vsix
 ```

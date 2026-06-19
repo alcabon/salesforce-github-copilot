@@ -1,8 +1,8 @@
 {
-  "name": "salesforce-github-copilot",
+  "name": "salesforce-copilot-inspector",
   "displayName": "Salesforce Copilot Inspector",
   "description": "Inspect GitHub Copilot configurations, installed skills, hooks, instructions, and Salesforce MCP server setup",
-  "version": "0.3.1",
+  "version": "0.1.0",
   "publisher": "alaincabon",
   "license": "MIT",
   "keywords": [
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alcabon/salesforce-github-copilot.git"  
+    "url": "https://github.com/alcabon/salesforce-copilot-inspector.git"  
   },
   "icon": "assets/logo.png",
   "engines": {
@@ -47,7 +47,7 @@
     },
     "commands": [
       {
-        "command": "salesforce-github-copilot.refresh",
+        "command": "salesforce-copilot-inspector.refresh",
         "title": "Refresh Checks",
         "icon": "$(refresh)"
       }
@@ -55,7 +55,7 @@
     "menus": {
       "view/title": [
         {
-          "command": "salesforce-github-copilot.refresh",
+          "command": "salesforce-copilot-inspector.refresh",
           "when": "view == copilotChecksView",
           "group": "navigation"
         }

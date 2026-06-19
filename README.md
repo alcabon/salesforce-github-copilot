@@ -5,7 +5,7 @@
 [![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-Compatible-black?logo=githubcopilot)](https://github.com/features/copilot)
 [![Salesforce Skills](https://img.shields.io/badge/Salesforce-Skills%20Library-00A1E0?logo=salesforce)](https://github.com/forcedotcom/sf-skills)
 [![agentskills.io](https://img.shields.io/badge/agentskills.io-Validation-8A2BE2)](https://agentskills.io)
-[![Security Audit](https://github.com/alcabon/salesforce-github-copilot/actions/workflows/audit.yml/badge.svg)](https://github.com/alcabon/salesforce-github-copilot/actions/workflows/audit.yml)
+[![Security Audit](https://github.com/alcabon/salesforce-copilot-inspector/actions/workflows/audit.yml/badge.svg)](https://github.com/alcabon/salesforce-copilot-inspector/actions/workflows/audit.yml)
 
 A VS Code extension that audits your GitHub Copilot configuration from the Activity Bar — covering instructions, skills, prompts, agents, hooks, extensions, and Salesforce MCP server configuration across both workspace and personal scopes.
 
@@ -13,18 +13,18 @@ A VS Code extension that audits your GitHub Copilot configuration from the Activ
 
 ## Quick Installation
 
-**1. Download the latest `.vsix` from the [Releases page](https://github.com/alcabon/salesforce-github-copilot/releases/latest)**
+**1. Download the latest `.vsix` from the [Releases page](https://github.com/alcabon/salesforce-copilot-inspector/releases/latest)**
 
-Under **Assets**, click `salesforce-github-copilot-<version>.vsix` to download it.
+Under **Assets**, click `salesforce-copilot-inspector-<version>.vsix` to download it.
 
 **2. Install it**
 
 ```bash
 # replace <version> with the actual version number
-code --install-extension salesforce-github-copilot-<version>.vsix
+code --install-extension salesforce-copilot-inspector-<version>.vsix
 
 # concrete example
-code --install-extension salesforce-github-copilot-0.1.0.vsix
+code --install-extension salesforce-copilot-inspector-0.1.0.vsix
 ```
 
 Or via the VS Code UI: open the Extensions side-bar (`Ctrl+Shift+P` → **Extensions: Install from VSIX…**) and browse to the downloaded file.
@@ -242,7 +242,7 @@ npm install
 npm run package
 ```
 
-This produces `salesforce-github-copilot-<version>.vsix` in the project root (e.g. `salesforce-github-copilot-0.0.1.vsix`).
+This produces `salesforce-copilot-inspector-<version>.vsix` in the project root (e.g. `salesforce-copilot-inspector-0.0.1.vsix`).
 
 ---
 
@@ -266,10 +266,10 @@ Three equivalent methods — pick whichever fits your workflow.
 
 ```bash
 # replace <version> with the actual version number
-code --install-extension salesforce-github-copilot-<version>.vsix
+code --install-extension salesforce-copilot-inspector-<version>.vsix
 
 # concrete example
-code --install-extension salesforce-github-copilot-0.0.1.vsix
+code --install-extension salesforce-copilot-inspector-0.0.1.vsix
 ```
 
 The `code` CLI is bundled with VS Code. On Windows it may need to be added to `PATH` via **Command Palette → Shell Command: Install 'code' command in PATH**.

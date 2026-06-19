@@ -116,7 +116,7 @@ export function getNonce(): string {
 function fetchUrl(url: string, headers: Record<string, string> = {}): Promise<string> {
 	return new Promise((resolve, reject) => {
 		const req = https.get(url, {
-			headers: { 'User-Agent': 'salesforce-github-copilot-vscode/1.0', ...headers },
+			headers: { 'User-Agent': 'salesforce-copilot-inspector-vscode/1.0', ...headers },
 		}, (res) => {
 			if ((res.statusCode === 301 || res.statusCode === 302 || res.statusCode === 307) && res.headers.location) {
 				resolve(fetchUrl(res.headers.location, headers));
@@ -686,7 +686,7 @@ function listMcpServerTools(
 			params: {
 				protocolVersion: '2024-11-05',
 				capabilities: {},
-				clientInfo: { name: 'salesforce-github-copilot', version: '1.0.0' },
+				clientInfo: { name: 'salesforce-copilot-inspector', version: '1.0.0' },
 			},
 		});
 	});
@@ -1896,7 +1896,7 @@ class CopilotChecksViewProvider implements vscode.WebviewViewProvider {
 			params: {
 				protocolVersion: '2024-11-05',
 				capabilities: {},
-				clientInfo: { name: 'salesforce-github-copilot', version: '1.0.0' },
+				clientInfo: { name: 'salesforce-copilot-inspector', version: '1.0.0' },
 			},
 		});
 	}
@@ -4669,7 +4669,7 @@ export function activate(context: vscode.ExtensionContext) {
 	);
 
 	context.subscriptions.push(
-		vscode.commands.registerCommand('salesforce-github-copilot.refresh', () => {
+		vscode.commands.registerCommand('salesforce-copilot-inspector.refresh', () => {
 			provider.refresh();
 		}),
 	);

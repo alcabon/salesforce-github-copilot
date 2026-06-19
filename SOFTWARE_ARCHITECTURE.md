@@ -69,7 +69,7 @@ graph TD
 ## 2. Repository Layout
 
 ```
-salesforce-github-copilot/
+salesforce-copilot-inspector/
 ├── src/
 │   ├── extension.ts              # Entire extension source (~3 900 lines)
 │   └── test/
