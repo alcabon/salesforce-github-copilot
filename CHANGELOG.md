@@ -4,6 +4,13 @@ All notable changes to the "salesforce-github-copilot" extension will be documen
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.3.1]
+
+- Renamed the extension to **Salesforce Copilot Inspector** (display name and
+  Activity Bar / view titles).
+- Fixed blurred screenshots in the README by removing the forced `width`/`height`
+  attributes so images render without fractional downscaling.
+
 ## [0.3.0]
 
 - MCP tab: **Run Server** launches a configured `@salesforce/mcp` server as a

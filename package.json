@@ -1,9 +1,18 @@
 {
   "name": "salesforce-github-copilot",
-  "displayName": "Salesforce Github Copilot",
-  "description": "Verify GitHub Copilot configurations, installed skills, hooks, instructions, and Salesforce MCP server setup",
-  "version": "0.3.0",
+  "displayName": "Salesforce Copilot Inspector",
+  "description": "Inspect GitHub Copilot configurations, installed skills, hooks, instructions, and Salesforce MCP server setup",
+  "version": "0.3.1",
   "publisher": "alaincabon",
+  "license": "MIT",
+  "keywords": [
+    "salesforce",
+    "copilot",
+    "github copilot",
+    "mcp",
+    "inspector",
+    "configuration"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/alcabon/salesforce-github-copilot.git"  
@@ -22,7 +31,7 @@
       "activitybar": [
         {
           "id": "copilot-checks-panel",
-          "title": "Salesforce Github Copilot",
+          "title": "Salesforce Copilot Inspector",
           "icon": "media/icon.svg"
         }
       ]
@@ -32,7 +41,7 @@
         {
           "type": "webview",
           "id": "copilotChecksView",
-          "name": "Salesforce Github Copilot"
+          "name": "Salesforce Copilot Inspector"
         }
       ]
     },
@@ -57,7 +66,7 @@
     "vscode:prepublish": "npm run bundle -- --production",
     "bundle": "node esbuild.js",
     "bundle:watch": "node esbuild.js --watch",
-    "package": "npm run bundle -- --production && npx @vscode/vsce package --no-dependencies --allow-missing-repository --skip-license",
+    "package": "npm run bundle -- --production && npx @vscode/vsce package --no-dependencies --allow-missing-repository",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
